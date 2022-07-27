@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <style>
+            #frm{
+                border: groove goldenrod 5px;
+                border-radius: 5px 5px 5px 5px;
+                margin-left: 40ch;
+                margin-right: 40ch;
+                margin-top: 4ch;
+                padding-top: 1ch;
+                padding-bottom: 4ch;
+                background-color:burlywood;
+                color:black;
+            }
+        </style>
+        <center>
+        <form action="post" id="frm">
+            <h1>Registration Form</h1>
+            <tr>
+                <td>Name :</td>
+                <td>
+                    <input type="text" name="" placeholder="Enter Your Name" required>
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Emai ID :</td>
+                <td>
+                    <input type="text" name="" placeholder="Enter Your EmailID" required>
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Gender :</td>
+                <td>
+                    <input type="radio" name="rd">Male
+                    <input type="radio" name="rd">FeMale
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>Hobby :</td>
+                <td>
+                    <input type="checkbox" name="chk">Dancing
+                    <input type="checkbox" name="chk">Singing
+                    <input type="checkbox" name="chk">Travelling
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>DOB :</td>
+                <td>
+                    <input type="text" name="" id=""placeholder="DD/MM/YYYY" required>
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>City :</td>
+                <select>
+                    <option value="" name="">Select City</option>
+                    <option value="">Surat</option>
+                    <option value="">Vapi</option>
+                    <option value="">Baroda</option>
+                    <option value="">Pune</option>
+                    <option value="">Ahemdabad</option>
+                </select>
+            </tr>
+            <br><br>
+            <tr>
+                <td>
+                    <input type="submit" name="btn" id="" value="Submit">
+                    <input type="submit" name="btn" id="" value="Reset">
+                </td>
+            </tr>
+        </form>
+    </center>
+    </body>
+</html>
