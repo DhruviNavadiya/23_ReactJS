@@ -7,16 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <select name="" id="color" onchange="Change(this.value)">
-        <option value="red">Red</option>
-        <option value="green">Green</option>
-        <option value="blue">Blue</option>
-        <option value="yellow">Yellow</option>
-    </select>
+    <h1 id="name"></h1>
+    <input type="text" name="" id="color" onkeyup="Change(this.value)">
 </body>
 </html>
 <script>
     function Change(color){
+        document.getElementById("name").innerHTML=color
+        document.getElementById("name").style.cssText="color:white"
         document.body.style.backgroundColor=color;
     }
 </script>
