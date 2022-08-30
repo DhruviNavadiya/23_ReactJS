@@ -1,0 +1,45 @@
+.bglight{
+    background-color:rgb(253, 253, 253);
+    color: black;
+}
+.logo{
+    color: darkgreen;
+    font-size: xx-large;
+}
+.logo span{
+    color: black;
+}
+.img{
+    background: url(Onion.jpg) no-repeat;
+}
+
+.home{
+    color: black;
+    background: url(home4.jpg)no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 140vh;
+    background-position: center;
+}
+.content h1{
+    text-transform: uppercase;
+    font-size: 100px;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+}
+.btn{
+    text-decoration: none;
+    margin-top: 400px;
+    margin-left: 50px;
+    background-color:darkgreen;
+    color: black;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    text-transform: uppercase;
+}
+.btn :hover{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 25px 10px 25px;
+}

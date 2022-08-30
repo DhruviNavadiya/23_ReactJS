@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "price": "47000",
+      "title": "Motorola",
+      "description": "It's a very attractive iPhone",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "price": "47000",
+      "title": "Samsung",
+      "description": "It's a very attractive iPhone",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "price": "47000",
+      "title": "LG",
+      "description": "It's a very attractive iPhone",
+      "author": "typicode"
+    },
+    {
+      "id": 4,
+      "price": "47000",
+      "title": "iPhone",
+      "description": "It's a very attractive iPhone",
+      "author": "typicode"
+    },
+    {
+      "id": 5,
+      "price": "47000",
+      "title": "Realme",
+      "description": "It's a very attractive iPhone",
+      "author": "typicode"
+    },
+    {
+      "title": "ncjsd",
+      "price": "436",
+      "description": "vxcvfb ",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": 123,
+      "id": 1,
+      "role_id": 1
+    },
+    {
+      "name": "dhruvi",
+      "email": "dhruvi@gmail.com",
+      "password": 123,
+      "id": 1,
+      "role_id": 2
+    },
+    {
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": 123,
+      "id": 1,
+      "role_id": 1
+    },
+    {
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": 123,
+      "id": 1,
+      "role_id": 1
+    },
+    {
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": 123,
+      "id": 1,
+      "role_id": 1
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Poko",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
